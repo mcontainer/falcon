@@ -1,0 +1,6 @@
+[submodule "docker-event-collector"]
+	path = docker-event-collector
+	url = git@github.com:PaulBoutes/docker-event-collector.git
+[submodule "docker-graph-aggregator"]
+	path = docker-graph-aggregator
+	url = git@github.com:PaulBoutes/docker-graph-aggregator.git
