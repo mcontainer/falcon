@@ -9,3 +9,9 @@ Paul Boutes
 This project intent to build a tool to monitor a docker-based microservice architecture.
 When several microservices are deployed in different containers, and sometimes on different clusters,
 it is difficult to monitor the many dependencies within our architecture.
+
+## Getting started
+
+First clone the repository and all of its submodules: 
+
+`$ git clone --recursive git@github.com:PaulBoutes/docker-visualizer.git`
