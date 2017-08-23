@@ -4,6 +4,3 @@
 [submodule "docker-graph-aggregator"]
 	path = docker-graph-aggregator
 	url = git@github.com:PaulBoutes/docker-graph-aggregator.git
-[submodule "docker-sniffer"]
-	path = docker-sniffer
-	url = git@github.com:PaulBoutes/docker-sniffer.git
