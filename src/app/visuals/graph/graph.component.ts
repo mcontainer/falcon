@@ -58,8 +58,9 @@ export class GraphComponent implements OnInit, AfterViewInit {
 
   get options() {
     return this._options = {
-      width: window.innerWidth,
-      height: window.innerHeight
+      // FIXME: hardcoded reduction
+      width: window.innerWidth - 16,
+      height: window.innerHeight - 70
     };
   }
 }
