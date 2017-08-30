@@ -20,8 +20,8 @@ export class Node implements d3.SimulationNodeDatum {
   }
 
   normal = () => {
-    // FIXME: need
-    return Math.sqrt(this.linkCount / APP_CONFIG.N);
+    return 1;
+    /*return Math.sqrt(this.linkCount / APP_CONFIG.N);*/
   }
 
   get r() {
@@ -29,7 +29,7 @@ export class Node implements d3.SimulationNodeDatum {
   }
 
   get fontSize() {
-    return (30 * this.normal() + 10) + 'px';
+    return 10 + 'px';
   }
 
   get color() {

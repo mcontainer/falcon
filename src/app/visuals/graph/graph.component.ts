@@ -1,14 +1,16 @@
 import {
+  AfterViewInit,
   ChangeDetectionStrategy,
   ChangeDetectorRef,
   Component,
   HostListener,
-  Input
+  Input,
+  OnInit
 } from '@angular/core';
 import { D3Service, ForceDirectedGraph } from '../../d3';
 
 @Component({
-  selector: 'graph',
+  selector: 'app-graph',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <svg #svg [attr.width]="_options.width" [attr.height]="_options.height">
@@ -21,16 +23,17 @@ import { D3Service, ForceDirectedGraph } from '../../d3';
   `,
   styleUrls: ['./graph.component.css']
 })
-export class GraphComponent {
+export class GraphComponent implements OnInit, AfterViewInit {
   @Input('nodes') nodes;
   @Input('links') links;
+
+  graph: ForceDirectedGraph;
+  _options: { width, height } = {width: 800, height: 600};
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
     this.graph.initSimulation(this.options);
   }
-
-  graph: ForceDirectedGraph;
 
   constructor(private d3Service: D3Service, private ref: ChangeDetectorRef) {
   }
@@ -52,8 +55,6 @@ export class GraphComponent {
   ngAfterViewInit() {
     this.graph.initSimulation(this.options);
   }
-
-  private _options: { width, height } = {width: 800, height: 600};
 
   get options() {
     return this._options = {
