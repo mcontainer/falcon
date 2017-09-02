@@ -4,3 +4,6 @@
 [submodule "docker-graph-aggregator"]
 	path = docker-graph-aggregator
 	url = git@github.com:PaulBoutes/docker-graph-aggregator.git
+[submodule "client-visualizer"]
+	path = client-visualizer
+	url = git@github.com:PaulBoutes/client-visualizer.git
