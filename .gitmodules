@@ -7,3 +7,6 @@
 [submodule "client-visualizer"]
 	path = client-visualizer
 	url = git@github.com:PaulBoutes/client-visualizer.git
+[submodule "proto"]
+	path = proto
+	url = git@github.com:PaulBoutes/proto.git
