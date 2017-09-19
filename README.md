@@ -1,6 +1,7 @@
 # Falcon
-
-<img src="docs/logo.png" width="350">
+<p align="center">
+  <img src="docs/logo.png" width="350">
+</p>
 
 ## Author
 
