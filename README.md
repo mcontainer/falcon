@@ -1,6 +1,6 @@
 # Falcon
 
-![logo](docs/logo.png =300x300)
+<img src="docs/logo.png" width="350">
 
 ## Author
 
