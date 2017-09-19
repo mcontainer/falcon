@@ -1,4 +1,6 @@
-# docker-visualizer
+# Falcon
+
+![logo](docs/logo.png =300x300)
 
 ## Author
 
