@@ -1,4 +1,4 @@
-# Falcon
+# Falcon: your containers tell you everything
 <p align="center">
   <img src="docs/logo.png" width="350">
 </p>
