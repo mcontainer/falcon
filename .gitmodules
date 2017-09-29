@@ -10,3 +10,6 @@
 [submodule "proto"]
 	path = proto
 	url = git@github.com:PaulBoutes/proto.git
+[submodule "metrics-gatherer"]
+	path = metrics-gatherer
+	url = git@github.com:ArchangelX360/metrics-gatherer.git
