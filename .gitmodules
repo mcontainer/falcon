@@ -1,9 +1,9 @@
-[submodule "docker-event-collector"]
-	path = docker-event-collector
-	url = git@github.com:PaulBoutes/docker-event-collector.git
-[submodule "docker-graph-aggregator"]
-	path = docker-graph-aggregator
-	url = git@github.com:PaulBoutes/docker-graph-aggregator.git
+[submodule "collector"]
+	path = collector
+	url = git@github.com:PaulBoutes/collector.git
+[submodule "aggregator"]
+	path = aggregator
+	url = git@github.com:PaulBoutes/aggregator.git
 [submodule "client-visualizer"]
 	path = client-visualizer
 	url = git@github.com:PaulBoutes/client-visualizer.git
